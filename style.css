@@ -1,4 +1,5 @@
-.raleway {
+/* === Font Configuration === */
+raleway {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
@@ -41,16 +42,10 @@ nav ul a {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
-  margin: 309px 267.5px 152px 267.5px;
-
+ padding-top: 158px;
 }
 
-.describtion ul li {
-
-  list-style: none;
-  margin: 37px;
-}
-
+/* === Button Styling === */
 .cta-button {
   background-color: #4E47FF;
   color: white;
@@ -68,7 +63,7 @@ nav ul a {
   background-color: #3a36cc;
 }
 
-
+/* === Global Body Styling === */
 body {
   font-family: 'Raleway', sans-serif;
   background: #f6f8fe;
@@ -91,7 +86,6 @@ body {
   position: relative;
   align-items: center;
   justify-content: center;
-
 }
 
 .action-container {
@@ -100,16 +94,13 @@ body {
   flex-wrap: nowrap;
   display: flex;
   justify-content: center;
-
   gap: 340px;
-
 }
 
 .action-container p {
   font-size: 16px;
   color: #6b7280;
   margin-bottom: 20px;
-
 }
 
 .action-image img {
@@ -137,18 +128,17 @@ body {
 }
 
 .stats {
-  font-family: Inter;
   display: flex;
+  font-family: inter;
+  text-align: center;
   justify-content: center;
   gap: 158px;
-  margin-top: 20px;
 }
 
 .stats h3 {
   font-size: 80px;
   color: #4E47FF;
-  margin-bottom: 5px;
-  padding: px 142px 50px 142px;
+  margin-bottom: 10px;
   gap: 158px;
 }
 
